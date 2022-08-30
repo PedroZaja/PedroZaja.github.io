@@ -1,0 +1,39 @@
+.backgroundTitulo {
+    
+    margin-inline: auto;
+    border: 1px;
+    
+
+    .formulario_titulo {
+        font-family: 'Bebas Neue', cursive;
+        text-align: center;
+        text-decoration: underline;
+        font-weight: 600;
+        color: $negro;
+        font-size: map-get($tamañoFuentes, titulo);
+    }
+}
+
+.formulario_entero {
+    text-align: center;
+    box-sizing: border-box;
+
+    .boton_formulario_pos {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+        justify-items: center;
+        margin: 10px;
+
+        .boton_formulario {
+            color: #101316;
+            position: relative;
+            font-size: 1.5rem;
+            width: 100px;
+            height: 50px;
+            top: 20px;
+            margin: 10px;
+        }
+    }
+}

@@ -1,0 +1,41 @@
+.tituloPrincipal {
+    font-family: 'Bebas Neue', cursive;
+    color: $negro;
+    font-size: map-get($tamañoFuentes, titulo);
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+.galeriaTitulo {
+    font-family: 'Bebas Neue', cursive;
+    display: grid;
+    font-size: map-get($tamañoFuentes, titulo);
+    grid-template-columns: 50% 50%;
+    justify-content: space-around;
+    align-items: center;
+    justify-items: center;
+    text-decoration: underline;
+
+    .antesydespues {
+        font-family: 'Bebas Neue', cursive;
+    }
+}
+
+.videoIframe {
+    font-family: 'Bebas Neue', cursive;
+    font-size: map-get($tamañoFuentes, titulo);
+    text-align: center;
+    text-decoration: underline;
+}
+
+.divIframe {
+    @include center;
+
+    .iframeVideo {
+        @extend .pcArmada;
+        box-shadow: 0 0 5px #dd1a1a, 0 0 25px #dd1a1a, 0 0 50px #dd1a1a, 0 0 200px #dd1a1a;
+        
+    }
+}

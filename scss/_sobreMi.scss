@@ -1,0 +1,18 @@
+.sobreMi {
+    display: grid;
+
+    .sobreMi__titulo {
+        font-family: 'Bebas Neue', cursive;
+        font-weight: 600;
+        color: $negro;
+        font-size: map-get($tamañoFuentes, titulo);
+        line-height: 100px;
+        text-align: center;
+        text-decoration: underline;
+    }
+
+    .sobreMi__parrafo {
+        font-size: map-get($tamañoFuentes, desc);
+        text-align: center;
+    }
+}

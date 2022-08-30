@@ -1,0 +1,18 @@
+.tituloPrincipal {
+    font-family: 'Bebas Neue', cursive;
+    color: $negro;
+    font-size: map-get($tamañoFuentes, titulo);
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+.card_descripcion {
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.card_explicacion {
+    font-size: 20px;
+}

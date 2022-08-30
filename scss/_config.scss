@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(to bottom, #7b6bd1, #6d6bc9, #616ac1, #5669b8, #4d67ae, #3464a3, #1b6195, #005c87, #005370, #004958, #003e42, #0a322f);
+
+}
+
+main {
+    min-height: 80vh;
+}
+
+footer {
+    min-height: 200px;
+
+}

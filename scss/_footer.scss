@@ -1,0 +1,41 @@
+.footer {
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 20px;
+    margin-top: auto;
+    color: aliceblue;
+}
+
+.fa-instagram {
+    color: map-get($redes, Ig) ;
+    margin: $margenRedes;
+}
+
+.fa-facebook {
+    color: map-get($redes, Fb) ;
+    margin: $margenRedes;
+}
+
+.fa-whatsapp {
+    color: map-get($redes, Ws);
+    margin: $margenRedes;
+}
+
+.fa-youtube {
+    color: map-get($redes, Yt) ;
+    margin: $margenRedes;
+}
+
+.fa-twitch {
+    color: map-get($redes, Tw);
+    margin: $margenRedes;
+}
+
+.fa-instagram:hover,
+.fa-facebook:hover,
+.fa-whatsapp:hover,
+.fa-youtube:hover,
+.fa-twitch:hover {
+    transform: scale(1.5);
+}
